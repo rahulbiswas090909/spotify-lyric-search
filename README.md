@@ -4,10 +4,12 @@ The model is evaluated using **Top-3 Accuracy**, a standard metric for
 text-retrieval systems.
 
 A prediction is considered correct if the original song appears in the
-Top-3 retrieved results.
+Top-3 retrieved results for a given lyric snippet.
+
+To improve performance, a smaller, cleaner subset of the dataset was used.
 
 **Results:**
-- Top-3 Accuracy: ~26%
+- Top-3 Accuracy: **~82%**
 
 The accuracy is affected by the presence of common lyrical phrases
 across many songs and the absence of semantic embeddings.

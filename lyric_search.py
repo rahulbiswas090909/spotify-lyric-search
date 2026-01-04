@@ -9,7 +9,7 @@ nltk.download("stopwords")
 stop_words = set(stopwords.words("english"))
 
 # Load dataset
-df = pd.read_csv("spotify_data.csv")
+df = pd.read_csv("spotify_small.csv")
 
 # Auto-detect columns
 def find_column(keys):
