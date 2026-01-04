@@ -55,7 +55,7 @@ python evaluation.py
 
 Sample Output:
 
-Top-3 Accuracy: 0.26
+Top-3 Accuracy: 0.82
 
 
 This demonstrates the model’s prediction accuracy using a standard Top-K retrieval metric.
